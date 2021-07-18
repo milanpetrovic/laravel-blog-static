@@ -13,14 +13,14 @@
 </head>
 <body style="font-family: Open Sans, sans-serif">
     <section class="px-6 py-8">
-        <nav class="flex justify-between items-center">
+        <nav class="md:flex md:justify-between md:items-center">
             <div>
                 <a href="/">
                     <img src="./images/logo.svg" alt="Laracasts from scratch" width="165" height="16">
                 </a>
             </div>
 
-            <div>
+            <div class="mt-8 md:mt-0">
                 <a href="/" class="text-xs font-semibold uppercase">Homepage</a>
 
                 <a href="#" class="bg-blue-500 ml-3 py-3 px-5 rounded-full text-xs font-semibold uppercase text-white">Subscribe for updates</a>
@@ -42,7 +42,7 @@
                     I'm going to keep you guys up to speed with what's going on.
                 </p>
 
-                <div class="space-y-2 lg:space-y-0 lg:space-x-4 mt-8">
+                <div class="space-y-4 lg:space-y-0 lg:space-x-4 mt-8">
                     <!--  Category -->
                     <div class="relative flex lg:inline-flex items-center bg-gray-100 rounded-xl">
                         <select class="flex-1 appearance-none bg-transparent py-2 pl-5 pr-9 text-sm font-semibold">
@@ -91,23 +91,23 @@
             </div>
         </header>
 
-        <main class="max-w-6xl mx-auto mt-20 space-y-8">
+        <main class="max-w-6xl mx-auto mt-10 lg:mt-20 space-y-8">
             <article class="transition-colors duration-300 hover:bg-gray-100 rounded-xl border border-black border-opacity-0 hover:border-opacity-5">
 
-                <div class="py-6 px-5 flex">
-                    <div class="flex-1 mr-8">
+                <div class="py-6 px-5 lg:flex">
+                    <div class="flex-1 lg:mr-8">
                         <img src="./images/illustration-1.png" alt="Blog Post Illustration" class="rounded-xl">
                     </div>
 
                     <div class="flex-1 flex flex-col justify-between">
-                        <header>
+                        <header class="mt-8 lg:mt-0">
                             <div class="space-x-2">
                                 <a href="#" class="px-3 py-1 border border-blue-300 text-blue-400 text-xs uppercase font-semibold rounded-full">Techniques</a>
                                 <a href="#" class="px-3 py-1 border border-red-300 text-red-400 text-xs uppercase font-semibold rounded-full">Updates</a>
                             </div>
 
                             <div class="mt-4">
-                                <h2 class="text-3xl">This is a big title and it will look great on two or even three lines. Woohoo!</h2>
+                                <h2 class="text-2xl lg:text-3xl">This is a big title and it will look great on two or even three lines. Woohoo!</h2>
                                 <span class="mt-2 block text-gray-400 text-xs">
                                     Published <time>1 day ago</time>
                                 </span>
@@ -129,7 +129,7 @@
                                 </div>
                             </div>
 
-                            <div>
+                            <div class="hidden lg:block">
                                 <a href="#" class="font-semibold text-xs bg-gray-200 rounded-full px-5 py-2">Read More</a>
                             </div>
                         </footer>
@@ -138,7 +138,7 @@
 
             </article>
 
-            <div class="grid grid-cols-2">
+            <div class="lg:grid lg:grid-cols-2">
                 <article class="transition-colors duration-300 hover:bg-gray-100 rounded-xl border border-black border-opacity-0 hover:border-opacity-5">
 
                     <div class="py-6 px-5">
@@ -154,7 +154,7 @@
                                 </div>
     
                                 <div class="mt-4">
-                                    <h2 class="text-3xl">This is a big title and it will look great on two or even three lines. Woohoo!</h2>
+                                    <h2 class="text-2xl lg:text-3xl">This is a big title and it will look great on two or even three lines. Woohoo!</h2>
                                     <span class="mt-2 block text-gray-400 text-xs">
                                         Published <time>1 day ago</time>
                                     </span>
@@ -176,7 +176,7 @@
                                     </div>
                                 </div>
     
-                                <div>
+                                <div class="hidden lg:block">
                                     <a href="#" class="font-semibold text-xs bg-gray-200 rounded-full px-5 py-2">Read More</a>
                                 </div>
                             </footer>
@@ -200,7 +200,7 @@
                                 </div>
     
                                 <div class="mt-4">
-                                    <h2 class="text-3xl">This is a big title and it will look great on two or even three lines. Woohoo!</h2>
+                                    <h2 class="text-2xl lg:text-3xl">This is a big title and it will look great on two or even three lines. Woohoo!</h2>
                                     <span class="mt-2 block text-gray-400 text-xs">
                                         Published <time>1 day ago</time>
                                     </span>
@@ -222,7 +222,7 @@
                                     </div>
                                 </div>
     
-                                <div>
+                                <div class="hidden lg:block">
                                     <a href="#" class="font-semibold text-xs bg-gray-200 rounded-full px-5 py-2">Read More</a>
                                 </div>
                             </footer>
@@ -232,7 +232,7 @@
                 </article>
             </div>
 
-            <div class="grid grid-cols-3">
+            <div class="lg:grid lg:grid-cols-3">
                 <article class="transition-colors duration-300 hover:bg-gray-100 rounded-xl border border-black border-opacity-0 hover:border-opacity-5">
 
                     <div class="py-6 px-5">
@@ -248,7 +248,7 @@
                                 </div>
     
                                 <div class="mt-4">
-                                    <h2 class="text-3xl">This is a big title and it will look great on two or even three lines. Woohoo!</h2>
+                                    <h2 class="text-2xl">This is a big title and it will look great on two or even three lines. Woohoo!</h2>
                                     <span class="mt-2 block text-gray-400 text-xs">
                                         Published <time>1 day ago</time>
                                     </span>
@@ -270,7 +270,7 @@
                                     </div>
                                 </div>
     
-                                <div>
+                                <div class="hidden lg:block">
                                     <a href="#" class="font-semibold text-xs bg-gray-200 rounded-full px-5 py-2">Read More</a>
                                 </div>
                             </footer>
@@ -294,7 +294,7 @@
                                 </div>
     
                                 <div class="mt-4">
-                                    <h2 class="text-3xl">This is a big title and it will look great on two or even three lines. Woohoo!</h2>
+                                    <h2 class="text-2xl">This is a big title and it will look great on two or even three lines. Woohoo!</h2>
                                     <span class="mt-2 block text-gray-400 text-xs">
                                         Published <time>1 day ago</time>
                                     </span>
@@ -316,7 +316,7 @@
                                     </div>
                                 </div>
     
-                                <div>
+                                <div class="hidden lg:block">
                                     <a href="#" class="font-semibold text-xs bg-gray-200 rounded-full px-5 py-2">Read More</a>
                                 </div>
                             </footer>
@@ -340,7 +340,7 @@
                                 </div>
     
                                 <div class="mt-4">
-                                    <h2 class="text-3xl">This is a big title and it will look great on two or even three lines. Woohoo!</h2>
+                                    <h2 class="text-2xl">This is a big title and it will look great on two or even three lines. Woohoo!</h2>
                                     <span class="mt-2 block text-gray-400 text-xs">
                                         Published <time>1 day ago</time>
                                     </span>
@@ -362,7 +362,7 @@
                                     </div>
                                 </div>
     
-                                <div>
+                                <div class="hidden lg:block">
                                     <a href="#" class="font-semibold text-xs bg-gray-200 rounded-full px-5 py-2">Read More</a>
                                 </div>
                             </footer>
@@ -379,17 +379,17 @@
             <p class="text-sm">Promise to keep the inbox clean. No bugs.</p>
 
             <div class="mt-10">
-                <div class="relative inline-block mx-auto bg-gray-200 rounded-full">
-                    <form method="POST" action="#" class="flex text-sm">
-                        <div class="py-3 px-5 inline-flex items-center">
-                            <label for="email">
+                <div class="relative inline-block mx-auto lg:bg-gray-200 rounded-full">
+                    <form method="POST" action="#" class="lg:flex text-sm">
+                        <div class="lg:py-3 lg:px-5 inline-flex items-center">
+                            <label for="email" class="hidden lg:block">
                                 <img src="./images/mailbox-icon.svg" alt="Newsletter">
                             </label>
     
-                            <input id="email" type="text" placeholder="Your email address" class="bg-transparent pl-4 focus-within:outline-none">
+                            <input id="email" type="text" placeholder="Your email address" class="lg:bg-transparent py-4 lg:py-0 pl-4 focus-within:outline-none">
                         </div>
 
-                        <button type="submit" class="bg-blue-500 ml-3 py-3 px-6 rounded-full text-xs font-semibold uppercase text-white">Subscribe</button>
+                        <button type="submit" class="bg-blue-500 lg:ml-3 mt-4 lg:mt-0 py-3 px-6 rounded-full text-xs font-semibold uppercase text-white">Subscribe</button>
                     </form>
                 </div>
             </div>
